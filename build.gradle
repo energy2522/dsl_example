@@ -1,0 +1,26 @@
+group 'dsl'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+apply plugin: 'groovy'
+
+sourceSets {
+    jobs {
+        groovy {
+            srcDirs 'src/jobs'
+            compileClasspath += main.compileClasspath
+        }
+    }
+}
+
+repositories {
+    jcenter()
+    maven {
+        url 'https://repo.jenkins-ci.org/public/'
+    }
+}
+
+dependencies {
+    compile 'org.jenkins-ci.plugins:job-dsl-core:1.68'
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="example.dsl:jobs" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="dsl" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../out/jobs/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/jobs">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jobs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jobs/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jobs/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jobs/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jenkins-ci.plugins:job-dsl-core:1.68" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.8" level="project" />
+    <orderEntry type="library" name="Gradle: xmlunit:xmlunit:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jvnet.hudson:xstream:1.4.7-jenkins-1" level="project" />
+  </component>
+</module>
